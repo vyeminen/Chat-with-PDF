@@ -77,8 +77,6 @@ def main():
 
     
 
-    # os.environ['OPENAI_API_KEY'] = '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'
-
     if "conversation" not in st.session_state:
         st.session_state.conversation = None
 
